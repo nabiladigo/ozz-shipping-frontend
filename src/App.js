@@ -7,12 +7,14 @@ import Footer from './components/Footer';
 
 import Home from './pages/Home';
 import About from './pages/About';
-import Package from './pages/Package';
-import Profile from './pages/Profile';
+import Packages from './packages/Orders';
+import Profile from './user/Profile';
 import Calculator from './pages/Calculator';
-import Signin from "./pages/Login";
-import Signup from "./pages/Signup";
-
+import Signin from "./user/Login";
+import Signup from "./user/Signup";
+import Edit from "./packages/packageEdit";
+import Create from './packages/packageCreate';
+import Update from "./user/profileEdit";
 
 const App = (props) => {
 
@@ -22,7 +24,11 @@ const App = (props) => {
       <Nav />
       <Routes>
         <Route exact path='/' element ={<Home  URL={URL} />} />
-        <Route path="/packages" element = {<Package  URL={URL} />} />
+
+        <Route path="/packages" element = {<Packages  URL={URL} />} />
+        <Route path="/packages/edit/:id" element = {<Edit URL={URL} />} />
+        <Route path="create" element ={<Create URL={URL}/>} />
+        <Route path="/update" element={<Update URL={URL}/>} />
         <Route path="/about" element = {<About  URL={URL} /> } />
         <Route path="/signin" element = {<Signin  URL={URL} />} />
         <Route path="/signup" element = {<Signup  URL={URL} />} />
