@@ -44,21 +44,21 @@ const Create = () =>{
                        onChange={onChange}
                     />
                 </div>
-                {/* <div className="form-group text-left">
+                <div className="form-group text-left">
                     <label htmlFor="exampleInputimage">
                         Image 
                     </label>
 
-                    <input type="image" 
+                    <input type="text" 
                        className="form-control" 
                        id="image" 
                        aria-describedby="newFormnameHelp" 
                        placeholder="Enter image"
                        alt={newForm.title}
-                       src={newForm.image}
+                       value={newForm.image}
                        onChange={onChange}
                     />
-                 </div> */}
+                 </div>
                 <div className="form-group text-left">
                     <label htmlFor="exampleInputweight">
                         Weight

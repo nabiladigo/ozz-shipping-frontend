@@ -70,10 +70,10 @@ function PackageList() {
             {/* <div>
                 <img src=""/>
                 <h2>title</h2>
-                <p>
-                    <h5>price</h5>
+                <div>
+                   <h1> price</h1>
                     <span>status</span>
-                </p>
+                </div>
             </div> */}
             <div>{packageList()}</div>
         </div>
