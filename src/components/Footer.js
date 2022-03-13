@@ -24,7 +24,7 @@ function Footer(props) {
           <Link to="/">
           <div>Tracking</div>
         </Link>
-          <Link to="/">
+          <Link to="/faq">
           <div>FAQ</div>
         </Link>
     </div>

@@ -25,6 +25,15 @@ const Home = (props) => {
           <Link to="/signup" >
             <button> Sign up now</button>
           </Link>
+          <div>
+        <p>
+          <h1>Got a question?</h1>
+          To ask a question about an order click the ‘Discuss this order’ link from your orders page. You’ll also find answers to many common questions on our FAQs page.
+        </p>
+        <Link to="/faq">
+            <button>Got a question</button>
+        </Link>
+      </div>
         </div>
   )
 }

@@ -33,15 +33,6 @@ const Profile = () => {
         </Link>
       </nav>
       <div>
-        <p>
-          <h1>Got a question?</h1>
-          To ask a question about an order click the ‘Discuss this order’ link from your orders page. You’ll also find answers to many common questions on our FAQs page.
-        </p>
-        <Link to="/FAQ">
-            <button>Got a question</button>
-        </Link>
-      </div>
-      <div>
         <Link to="/calculator">Try our calculator</Link>
       </div>
 

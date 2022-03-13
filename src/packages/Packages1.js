@@ -7,13 +7,6 @@ const Package = (props) =>(
             <img style={{ width:"160px", height:"160px", borderRadius:"80px"}} src={props.package.image} alt={props.package.title}/>
             <h2>{props.package.title}</h2>
         </Link>
-        {/* <Link className="btn btn-link" to={`/packages/edit/${props.package._id}`}>Edit</Link> */}
-        {/* <button className="btn btn-link"
-            onClick={()=> {
-                props.deletePackage(props.package._id);
-            }}>
-            Cancel
-        </button> */}
     </div>
 );
 

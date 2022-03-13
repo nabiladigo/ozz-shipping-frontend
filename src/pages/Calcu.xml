@@ -1,0 +1,42 @@
+<!-- 
+<IntlRateV2Request USERID="544OZZSH6925">
+<Revision>2</Revision>
+<Package ID="1ST">
+<Pounds>15.12345678</Pounds>
+<Ounces>0</Ounces>
+<Machinable>True</Machinable>
+<MailType>Package</MailType>
+<GXG>
+<POBoxFlag>Y</POBoxFlag>
+<GiftFlag>Y</GiftFlag>
+</GXG>
+<ValueOfContents>200</ValueOfContents>
+<Country>Australia</Country>
+<Container>VARIABLE</Container>
+<Width>10</Width>
+<Length>15</Length>
+<Height>10</Height>
+<Girth>0</Girth>
+<OriginZip>18701</OriginZip>
+<CommercialFlag>N</CommercialFlag>
+<AcceptanceDateTime>2016-03-24T13:15:00-06:00</AcceptanceDateTime>
+<DestinationPostalCode>2046</DestinationPostalCode>
+</Package>
+<Package ID="2ND">
+<Pounds>0</Pounds>
+<Ounces>3.12345678</Ounces>
+<MailType>Envelope</MailType>
+<ValueOfContents>75</ValueOfContents>
+<Country>Algeria</Country>
+<Container/>
+<Width>5</Width>
+<Length>4</Length>
+<Height>2</Height>
+<Girth>1</Girth>
+<OriginZip/>
+<CommercialFlag>N</CommercialFlag>
+<ExtraServices>
+<ExtraService>6</ExtraService>
+</ExtraServices>
+</Package>
+</IntlRateV2Request> -->

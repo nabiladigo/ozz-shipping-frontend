@@ -9,12 +9,13 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Packages from './packages/Orders';
 import Profile from './user/Profile';
-import Calculator from './pages/Calculator';
+import Calculator from './calculator/Calculator';
 import Signin from "./user/Login";
 import Signup from "./user/Signup";
 import Edit from "./packages/packageEdit";
 import Create from './packages/packageCreate';
 import Update from "./user/profileEdit";
+import FAQ from"./pages/FAQ";
 
 const App = (props) => {
 
@@ -34,6 +35,8 @@ const App = (props) => {
         <Route path="/signup" element = {<Signup  URL={URL} />} />
         <Route path="/calculator" element= {<Calculator URL={URL} />} />
         <Route path="/user" element= {<Profile URL={URL} />} />
+        
+        <Route path="/faq" element= {<FAQ URL={URL} />} />
       </Routes>
       <Footer />
     </div>
