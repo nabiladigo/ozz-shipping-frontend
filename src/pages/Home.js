@@ -22,7 +22,8 @@ const Home = (props) => {
   //     const res = await
   // }
   return (
-    <div style={homeStyle}>
+    <div >
+    
       <img src="" />
         <div>
           <h1>How to calculate shipping costs</h1>
