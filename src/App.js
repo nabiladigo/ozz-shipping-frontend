@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes } from "react-router-dom";
 
 import Nav from './components/Nav';
@@ -7,7 +8,8 @@ import Footer from './components/Footer';
 
 import Home from './pages/Home';
 import About from './pages/About';
-import Packages from './packages/Orders';
+import Packages from './packages/Packages';
+import PackageList from './packages/PackageList';
 import Profile from './user/Profile';
 import Calculator from './calculator/Calculator';
 import Signin from "./user/Login";
@@ -19,7 +21,7 @@ import FAQ from"./pages/FAQ";
 
 const App = (props) => {
 
-  const URL = 'https://localhost:4000';
+  const URL = 'http://localhost:4000';
   return (
     <div className="container">
       <Nav />
@@ -27,6 +29,7 @@ const App = (props) => {
         <Route exact path='/' element ={<Home  URL={URL} />} />
 
         <Route path="/packages" element = {<Packages  URL={URL} />} />
+        <Route path="/packages/:id" element = {< PackageList  URL={URL}/>} />
         <Route path="/packages/edit/:id" element = {<Edit URL={URL} />} />
         <Route path="create" element ={<Create URL={URL}/>} />
         <Route path="/update" element={<Update URL={URL}/>} />

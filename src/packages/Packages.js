@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Package = (props) =>(
     <div>
-        <Link to= "/packages/:id">
+        <Link to= {`/packages/${props.package._id}`}>
             <img style={{ width:"160px", height:"160px", borderRadius:"80px"}} src={props.package.image} alt={props.package.title}/>
             <h2>{props.package.title}</h2>
         </Link>

@@ -1,0 +1,36 @@
+/* ul{
+    display:flex;
+    justify-content: space-around;
+    border: 3px solid black;
+     list-style-type: none; 
+     padding: 20px 20px 20px 0px;
+    width: 90%;
+    margin: auto; 
+     margin:0;
+    padding:0; 
+     overflow:hidden;
+     background-color: #3A405A;  
+     list-style: none; 
+}
+.itemes{
+    display:block;
+    color: rgb(42, 214, 15);
+    text-align: center;
+    padding: 14px 16px;
+     text-decoration: none;
+}
+.logo{
+     font-size: 1.2rem; 
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    margin-right:5rem;
+    width: 60px;
+}
+
+  // const navStyle = {
+  //   display: "flex",
+  //   justifyContent: "space-around",
+  //   border: "3px solid black",
+  //   padding: "8px",
+  //   width: "90%",
+  //   margin: "auto",
+  // }; */ 

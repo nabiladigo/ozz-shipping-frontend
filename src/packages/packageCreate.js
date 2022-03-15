@@ -71,7 +71,8 @@ const Create = () =>{
                         onChange={onChange} 
                     />
                 </div>
-                <Link to={"/packages"} >
+                {/* forward it to an item only  */}
+                <Link to={""} >
                     <button 
                         type="submit" 
                         className="btn btn-primary"
