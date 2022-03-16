@@ -15,10 +15,11 @@ const Nav = () => {
     // color: "white",
   };
  
+ 
   return (
     
       <nav style={navStyle}>
-              <Link to="/">
+              <Link to="/" >
                 <img width={60} className="logo"  src="https://c8.alamy.com/comp/2FNYMBG/cargo-containers-with-moroccan-flag-freight-shipping-in-morocco-3d-rendering-isolated-on-white-background-2FNYMBG.jpg"  alt='log'/>
               </Link>
               <Link to="/">

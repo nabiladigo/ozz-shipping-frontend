@@ -12,7 +12,7 @@ const Package = (props) =>(
 
 function PackageList() {
     const [ packages, setPackages] = useState([]);
-    const URL = "http://localhost:4000/packages/";
+    const URL = "https://ozzshipping.herokuapp.com/packages";
 
     const getPackages = async() => {
         const response = await fetch(URL);

@@ -8,7 +8,7 @@ const Profile = () => {
         <h4>My account</h4>
          <img 
          style={{ width:"160px", height:"160px", borderRadius:"80px"}}
-          src="https://i.imgur.com/dnLRgDE.jpg" alt="mybabies" /> 
+          src="https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg" alt="mybabies" /> 
       </div> 
       <nav  
       // style={navStyle}
@@ -16,9 +16,9 @@ const Profile = () => {
         <Link to="/">
           <div>Dashboard</div>
         </Link>
-        <Link to="/signup">
+        {/* <Link to="/signup">
           <div>Create account</div>
-        </Link>
+        </Link> */}
         <Link to="/create">
           <div>New order</div>
         </Link>
