@@ -16,6 +16,7 @@ function Footer(props) {
   
   return (
   <div   className="footer">
+    
     <div style={navStyle}>
 
      <Link to="/">
@@ -31,7 +32,7 @@ function Footer(props) {
           <div>FAQ</div>
         </Link>
     </div>
-    <h3>Designed & Build by Nabila Digourdi</h3>
+    <h3 >Designed & Build by Nabila Digourdi</h3>
      </div>
      );
 }
