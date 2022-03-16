@@ -40,10 +40,10 @@
 
 body{
   display: flexbox;
-  background-color: #d2c8bc;
-  color: #42281c;
+  background-color: #58bde8;
+  /* color: #b7b5ad; */
 
 }
 h1{
-  color:#5b828e;
+  color:#765a4e;
 }

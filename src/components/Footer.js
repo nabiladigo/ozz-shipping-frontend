@@ -4,11 +4,14 @@ import { Link } from 'react-router-dom';
 function Footer(props) {
   const navStyle = {
     display: "flex",
+    // position: "fixed",
     justifyContent: "space-around",
-    border: "3px solid black",
+    // border: "3px solid black",
     padding: "8px",
-    width: "90%",
+    width: "100%",
     margin: "auto",
+    backgroundColor: "#e3eaf3",
+    // color: "white",
   };
   
   return (

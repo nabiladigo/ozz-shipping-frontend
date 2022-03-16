@@ -11,7 +11,7 @@ const Nav = () => {
     padding: "8px",
     width: "100%",
     margin: "auto",
-    backgroundColor: "#a35233",
+    backgroundColor: "#e3eaf3",
     // color: "white",
   };
  
