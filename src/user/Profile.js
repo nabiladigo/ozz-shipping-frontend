@@ -43,7 +43,8 @@ const Profile = () => {
           <h4>My account</h4>
            <img 
            style={{ width:"160px", height:"160px", borderRadius:"80px"}}
-            src="https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg" alt="mybabies" /> 
+            src="https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg" alt="mybabies" />
+            {/* <h2>{Username}</h2>  */}
         </div> 
       <div>
         <Link to="/calculator">Try our calculator</Link>

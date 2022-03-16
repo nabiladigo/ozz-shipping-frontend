@@ -110,7 +110,7 @@ const Edit = (id)=> {
                        id="title" 
                        aria-describedby="newFormnameHelp" 
                        placeholder="Enter username"
-                       value={form.title}
+                       value={form.username}
                        onChange={(e) => updateForm({weight: e.target.value})}
                     />
                 </div>
@@ -124,7 +124,7 @@ const Edit = (id)=> {
                        id="image" 
                     //    aria-describedby="newFormnameHelp" 
                        placeholder="Enter image"
-                       alt={form.title}
+                       alt={form.username}
                        value={form.image}
                        onChange={(e) => updateForm({weight: e.target.value})}
                     />
@@ -139,7 +139,7 @@ const Edit = (id)=> {
                         />           
                     </div>  */}
                     <div className="form-group">
-                        <Link  to={"/packages"}>
+                        <Link  to={"/user"}>
                             <input
                                 type="submit"
                                 value="Update"
