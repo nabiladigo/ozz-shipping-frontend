@@ -26,7 +26,7 @@ const Results = (props) => {
             <li className="weight"><strong>Arriving: </strong>{arrival_date}</li>
           </ul>
         </li>
-        <li className="weight"><strong>Cost: </strong>{cost}</li>
+        <li className="weight"><strong>Cost:$ </strong>{cost}</li>
       </ul>
     );
 };
