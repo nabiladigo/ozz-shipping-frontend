@@ -35,6 +35,9 @@ const Profile = () => {
         <Link to="/update">
           <div>profile Update</div>
         </Link>
+        <Link to="/logout">
+          <div>Log out</div>
+        </Link>
       </nav>
         <div>
           <h4>My account</h4>
