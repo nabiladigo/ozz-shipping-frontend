@@ -25,9 +25,9 @@ const Nav = () => {
               <Link to="/">
                 <div><span>Ozz</span> Shipping</div>
                 </Link>
-              <Link to="/packages">
+              {/* <Link to="/packages">
                 <div>Ship A package</div>
-              </Link>
+              </Link> */}
               <Link to="/user">
                 <div>Profile</div>
               </Link>
