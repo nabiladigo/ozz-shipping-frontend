@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 
 function Footer(props) {
   const navStyle = {
-    display: "flex",
-    // position: "fixed",
+   position: fixed;
+    bottom: 0px;
+    display: flex;
     justifyContent: "space-around",
     // border: "3px solid black",
     padding: "8px",
